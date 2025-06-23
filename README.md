@@ -22,7 +22,7 @@ A simple and elegant "Coming Soon" landing page built to capture user email addr
 - JavaScript
 
 ## Live Preview
-
+[Live Link](jiggythedev.github.io/ping)
 
 ## Validation Logic
 The input field is validated using Javascript. The form throws an error if:
