@@ -13,7 +13,7 @@ A simple and elegant "Coming Soon" landing page built to capture user email addr
 
 ## 🖼️ Preview
 
-![Coming Soon Preview](images/desktop-preview.jpg) 
+![Coming Soon Preview](images/desktop-design.jpg) 
 
 ## 🚧 Technologies Used
 
