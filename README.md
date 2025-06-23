@@ -13,13 +13,16 @@ A simple and elegant "Coming Soon" landing page built to capture user email addr
 
 ## 🖼️ Preview
 
-![Coming Soon Preview](images/desktop-design.jpg) 
+![Coming Soon Preview](design/desktop-preview.jpg) 
 
 ## 🚧 Technologies Used
 
 - HTML5
 - CSS3 
 - JavaScript
+
+## Live Preview
+
 
 ## Validation Logic
 The input field is validated using Javascript. The form throws an error if:
