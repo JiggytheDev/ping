@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-family: "Libre Franklin";
+}
+
+.ping-logo {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.ping-logo img {
+    width: 80px;
+}
+
+.launch {
+    text-align: center;
+    line-height: 1.5;
+    margin: 10px;
+}
+
+.launch span h3 {
+    font-size: 45px;
+    color: gray;
+    font-weight: 100;
+}
+
+.launch mark {
+    font-weight: bold;
+    background: none;
+    color: hsl(209, 33%, 12%);
+}
+
+.launch p {
+    font-size: 20px;
+    color: hsla(0, 0%, 20%, 0.911);
+}
+
+form {
+    margin: 10px auto;
+}
+
+#myForm {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+}
+
+input {
+    width: 330px;
+    padding: 14px;
+    border-radius: 28px;
+    border: 1px solid rgba(128, 128, 128, 0.452);
+}
+
+::placeholder {
+    color: rgba(128, 128, 128, 0.452);
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    text-align: start;
+    margin-left: 17px;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+button {
+    border-radius: 28px;
+    width: 140px;
+    border: none;
+    background-color: hsl(223, 87%, 63%);
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+    height: 46px;
+}
+
+button:hover {
+    background-color: hsla(223, 87%, 63%, 0.63);
+}
+
+.random-img img {
+    height: 100;
+    width: 500px;
+    margin: 1.5rem auto;
+}
+
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+@media (max-width: 425px) {
+
+    body {
+        width: fit-content;
+    }
+
+    .ping-logo {
+        margin: 0;
+    }
+
+    #myForm {
+        flex-flow: column ;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .random-img img {
+        width: 300px;
+        margin: 0;
+    }
+
+    /* .launch span h3 {
+        font-size: 25px;
+    } */
+
+    /* .launch p {
+        font-size: 12px;
+    } */
+}
+
+
